@@ -1,0 +1,24 @@
+{
+  "name": "free-tex-packer-godot",
+  "version": "1.0.0",
+  "description": "free-tex-packer to Godot4 AtlasTexture",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "pack": "npx -y tsx index.js"
+  },
+  "keywords": [
+    "godot",
+    "atlas",
+    "texture"
+  ],
+  "author": "hehehebug",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "free-tex-packer-core": "^0.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0"
+  }
+}
