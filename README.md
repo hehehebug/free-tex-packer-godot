@@ -1,4 +1,4 @@
-Single png resource file convert to godot AtlasTexture's tres
+Single png resource file convert to godot4.x AtlasTexture's tres
 
 Install:
 ```
