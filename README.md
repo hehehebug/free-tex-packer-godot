@@ -1,4 +1,4 @@
-Single png resource files convert to godot4.x AtlasTexture's tres
+Single sprite resource file convert to godot4.x AtlasTexture's tres
 
 Install:
 ```

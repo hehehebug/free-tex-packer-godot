@@ -17,7 +17,7 @@ const TEXTURE_NAME = "test_atlas";
 const CONFIG = {
   outputFolder: './output/',                      //Godot resource file output path
   atlasData: '',                                  //Here is temporary data, and no need set string
-  atlasImagePath: 'res://assets/textures/',       //This is the godot resource path, copy output file to this path after finish.
+  atlasImagePath: 'res://assets/textures/',       //This is the godot resource path, copy or move output files to this path after finished.
   
   // UID : 'random' | 'hash' | 'none'
   uidStrategy: 'hash',
