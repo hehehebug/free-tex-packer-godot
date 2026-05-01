@@ -7,13 +7,16 @@ const crypto = require('crypto');
 const { packAsync } = require('free-tex-packer-core');
 
 //============================================================================================
+//👇 Just need to modify here
 const IMAGES = [
 	"./test/bkgard.png",
 	"./test/bkblue.png",
 	"./test/bkfall.png",
 ];
 const TEXTURE_NAME = "test_atlas";
+//============================================================================================
 
+//👇 No need to modify 
 const CONFIG = {
   outputFolder: './output/',                      //Godot resource file output path
   atlasData: '',                                  //Here is temporary data, and no need set string
