@@ -61,12 +61,14 @@ async function packAndExport() {
       const extname = path.extname(filePath);
       if (extname === ".json") {
         CONFIG.atlasData = filePath;
+
       }
       else {
         CONFIG.atlasImagePath += filePath.split('/').pop();
-      }
 
-			console.log(`✅ Export success: ${filePath} (${(file.buffer.length / 1024).toFixed(2)} KB)`);
+        console.log(`✅ Export success: ${filePath} (${(file.buffer.length / 1024).toFixed(2)} KB)`);
+      }
+			
 		}
 	} catch (err) {
     const typedErr = /** @type {Error} */ (err);
