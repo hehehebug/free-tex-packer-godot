@@ -6,9 +6,9 @@ cd free-tex-packer-godot
 npm i
 ```
 
-2. Modify the configuration of the index.js file according to the actual situation.  
-Demo:
+2. Modify the configuration of the index.js file according to the actual situation.
 ```javascript
+//Demo:
 const IMAGES = [
 	"./test/bkgard.png",
 	"./test/bkblue.png",
