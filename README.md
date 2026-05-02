@@ -7,7 +7,7 @@ npm i
 ```
 
 2. Modify the configuration of the index.js file according to the actual situation.  
-demo:
+Demo:
 ```javascript
 const IMAGES = [
 	"./test/bkgard.png",
@@ -22,6 +22,7 @@ const TEXTURE_NAME = "test_atlas";
 npm run pack
 ```
 
+Results:  
 ✅ Export success: output/test_atlas.png (5.80 KB)  
 ✅ Generate: output\bkblue.tres  
 ✅ Generate: output\bkfall.tres  
